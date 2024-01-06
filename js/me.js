@@ -24,6 +24,10 @@ function autoPlay(){
     let n = parseInt(activeCar.getAttribute('urut'));
     console.log(n)
     n++;
+    
+    if(n >= carousel.length){
+        n == 0;
+    }
     navi[n].classList.add('active-li');
     carousel[n].classList.add('active-car');
 }
