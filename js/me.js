@@ -26,7 +26,7 @@ function autoPlay(){
     n++;
     
     if(n >= carousel.length){
-        n == 0;
+        n = 0;
     }
     navi[n].classList.add('active-li');
     carousel[n].classList.add('active-car');
